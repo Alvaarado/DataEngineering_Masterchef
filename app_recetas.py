@@ -25,12 +25,12 @@ app.mount("/static", StaticFiles(directory="static"), name="static")
 # Conectamos con la base de datos
 
 DB_CONFIG = {
-    'host': 'db-recipes.ct46wkioy0f3.us-east-1.rds.amazonaws.com', 
-    'port': 3306,
-    'user': 'admin',
-    'password': '12345678',
-    'database': 'query_recipes',
-    'charset': 'utf8mb4',
+    'host': '', 
+    'port': '',
+    'user': '',
+    'password': '',
+    'database': '',
+    'charset': '',
     'cursorclass': pymysql.cursors.DictCursor
 }
 
